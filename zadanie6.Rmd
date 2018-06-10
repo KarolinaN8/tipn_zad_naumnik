@@ -16,7 +16,11 @@ highlight: espresso
 Link: http://www.filmweb.pl/film/Jumanji%3A+Przygoda+w+d%C5%BCungli-2017-717250
 
 
+## Plakat promujący film:
+![](91745.jpg)
+ 
 ## Bohaterowie:
+ 
 - doktor Smolder Bravestone
 - profesor Sheldon „Shelly” Oberon
 - Ruby Roundhouse
@@ -29,9 +33,8 @@ Link: http://www.filmweb.pl/film/Jumanji%3A+Przygoda+w+d%C5%BCungli-2017-717250
 - Bethany Walker
 - Martha Kaply
 - dyrektor Bentley
+
  
-
-
 ## Ogólne informacje o filmie
 
 | Reżyseria | Scenariusz | Gatunek  | Data premier  |
@@ -51,4 +54,16 @@ Link: http://www.filmweb.pl/film/Jumanji%3A+Przygoda+w+d%C5%BCungli-2017-717250
 `"It's a lot easier to be brave when you've got lives to spare. It's a lot harder when you only have one life."` - nawiązanie do utraty żyć w grze
 
 ### Koniec
+```{r}
+library(ggplot2)
+
+ggplot(data = mpg) + 
+  geom_histogram(mapping = aes(displ), binwidth = 0.2 ) +
+  labs(title = "Rozkład pojemności silnika samochodów", x = "pojemność silnika", y = "liczba")
+
+library(tidyverse)
+diamonds %>% filter(cut == "Very Good")
+```
+
+  
 
